@@ -1,0 +1,18 @@
+.transactionHistory {
+  width: 640px;
+}
+
+.row:nth-child(2n) {
+  background-color: rgb(144, 175, 175);
+}
+
+.thead {
+  text-transform: uppercase;
+  color: white;
+  height: 40px;
+  background-color: rgb(163, 163, 163);
+}
+
+.rowItem {
+  padding-left: 20px;
+}

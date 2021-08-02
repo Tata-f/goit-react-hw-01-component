@@ -1,0 +1,31 @@
+.statList {
+  display: flex;
+  justify-content: space-around;
+
+  width: 320px;
+
+  background-color: rgb(102, 139, 139);
+  border-radius: 5px;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(144, 175, 175);
+}
+
+.label {
+  padding: 0 5px;
+  color: white;
+  font-size: 14px;
+}
+
+.percentage {
+  padding: 0 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
