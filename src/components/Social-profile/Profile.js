@@ -30,11 +30,13 @@ export default function Profile({ src, name, tag, location, stats }) {
 }
 
 Profile.propTypes = {
-  src: PropTypes.string,
   name: PropTypes.string,
   tag: PropTypes.string,
-  location: PropTypes.string,
-  followers: PropTypes.number,
-  views: PropTypes.number,
-  likes: PropTypes.number,
+  location: PropTypes,
+  avatar: PropTypes,
+  stats: PropTypes.shape({
+    followers: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
+    likes: PropTypes.number.isRequired,
+  }),
 };
